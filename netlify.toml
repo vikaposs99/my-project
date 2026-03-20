@@ -105,3 +105,10 @@
   from = "/admin/config"
   to = "/.netlify/functions/admin-config"
   status = 200
+
+# Fallback - redirect any unknown path to index.html (SPA behavior)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  conditions = {Method = ["GET", "HEAD"]}
