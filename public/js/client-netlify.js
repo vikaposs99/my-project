@@ -3,7 +3,7 @@
 
 (function() {
     // Socket.io server URL
-    const SOCKET_SERVER_URL = 'https://my-project.railway.app';
+    const SOCKET_SERVER_URL = 'https://my-project-production-8e23.up.railway.app';
 
     // Load Socket.io from CDN
     const socketScript = document.createElement('script');
