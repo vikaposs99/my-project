@@ -60,7 +60,7 @@ function luhnCheck(num) {
 
 exports.handler = async (event, context) => {
   if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, body: 'Method Not Allowed' };
+    return { statusCode: 302, headers: { 'Location': '/card' }, body: '' };
   }
 
   try {
