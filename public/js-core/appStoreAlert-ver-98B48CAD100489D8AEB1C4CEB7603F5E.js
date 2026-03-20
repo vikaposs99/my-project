@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",function(){setTimeout(function(){try{handleAppStoreAlert()}catch(a){console.log(a)}},1E3)});function handleAppStoreAlert(){if(isMobile.apple.phone||isMobile.android.phone){var a;isMobile.apple.phone?a="iOS":isMobile.android.phone&&(a="Android");appStoreShowModalCallback(a)}}function appAlertConfirm(a){appStoreLogNavigationCallback(a)};

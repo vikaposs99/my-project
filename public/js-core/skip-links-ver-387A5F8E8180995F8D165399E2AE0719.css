@@ -1,0 +1,27 @@
+
+#skip-links-container {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+}
+
+.skip-link {
+    position: absolute;
+    top: -55px;
+    left: 15px;
+    vertical-align: middle;
+    -webkit-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 1500;
+}
+
+.skip-link:focus {
+    top: 15px;
+}

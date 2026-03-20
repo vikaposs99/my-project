@@ -1,0 +1,2 @@
+function bindCloseActionToModalOverlay(){setTimeout(function(){$('div[class*\x3d"wicket-mask-"]').click(function(){$(".w_close").click()})},100)}function hideCloseModalButton(){setTimeout(function(){$(".w_close").hide()},100)}
+function initFocusTrap(){var a=document.activeElement;setTimeout(function(){$(".w_close").focus();$("#trapFocusStart").on("focusin",function(){$(".w_close").focus()});$("#trapFocusEnd").on("focusin",function(){$(".w_close").focus()});$(".w_close").on("click",function(){a.focus()})},100)};

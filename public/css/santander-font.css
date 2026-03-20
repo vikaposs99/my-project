@@ -1,0 +1,191 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.monotype.com/
+*/
+
+/*Core Headline*/
+@font-face{
+    font-family:"CoreHeadlineW05";
+    font-display: fallback;
+    src:url("res/CoreHeadlineW05-Rg.woff2") format("woff2"),
+    url("res/CoreHeadlineW05-Rg.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreHeadlineW05";
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreHeadlineW05-Italic.woff2") format("woff2"),
+    url("res/CoreHeadlineW05-Italic.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreHeadlineW05";
+    font-weight: bold;
+    font-display: fallback;
+    src:url("res/CoreHeadlineW05-Bold.woff2") format("woff2"),
+    url("res/CoreHeadlineW05-Bold.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreHeadlineW05";
+    font-weight: bold;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreHeadlineW05-BoldIt.woff2") format("woff2"),
+    url("res/CoreHeadlineW05-BoldIt.woff") format("woff");
+}
+
+/*Core MicroText*/
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-weight: 300;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-Light.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-Light.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-weight: 300;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-LtIt.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-LtIt.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-Rg.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-Rg.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-It.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-It.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-weight: 600;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-SmBd.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-SmBd.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-weight: 600;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-SBIt.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-SBIt.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-weight: 700;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-Bold.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-Bold.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-weight: 700;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-BdIt.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-BdIt.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-weight: 800;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-XBold.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-XBold.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreMicroTextW05";
+    font-weight: 800;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreMicroTextW05-XBdIt.woff2") format("woff2"),
+    url("res/CoreMicroTextW05-XBdIt.woff") format("woff");
+}
+
+/*Core TextW05*/
+@font-face{
+    font-family:"CoreTextW05";
+    font-weight: 300;
+    font-display: fallback;
+    src:url("res/CoreTextW05-Light.woff2") format("woff2"),
+    url("res/CoreTextW05-Light.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-weight: 300;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreTextW05-LightIt.woff2") format("woff2"),
+    url("res/CoreTextW05-LightIt.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-display: fallback;
+    src:url("res/CoreTextW05-Regular.woff2") format("woff2"),
+    url("res/CoreTextW05-Regular.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreTextW05-Italic.woff2") format("woff2"),
+    url("res/CoreTextW05-Italic.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-weight: 600;
+    font-display: fallback;
+    src:url("res/CoreTextW05-SemiBold.woff2") format("woff2"),
+    url("res/CoreTextW05-SemiBold.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-weight: 600;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreTextW05-SemiBoldIt.woff2") format("woff2"),
+    url("res/CoreTextW05-SemiBoldIt.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-weight: 700;
+    font-display: fallback;
+    src:url("res/CoreTextW05-Bold.woff2") format("woff2"),
+    url("res/CoreTextW05-Bold.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-weight: 700;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreTextW05-BoldItalic.woff2") format("woff2"),
+    url("res/CoreTextW05-BoldItalic.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-weight: 800;
+    font-display: fallback;
+    src:url("res/CoreTextW05-ExtraBold.woff2") format("woff2"),
+    url("res/CoreTextW05-ExtraBold.woff") format("woff");
+}
+@font-face{
+    font-family:"CoreTextW05";
+    font-weight: 800;
+    font-style: italic;
+    font-display: fallback;
+    src:url("res/CoreTextW05-XtraBoldIt.woff2") format("woff2"),
+    url("res/CoreTextW05-XtraBoldIt.woff") format("woff");
+}
+@font-face {
+    font-family: CoreIcons;
+    src: url("res/CoreIcons.woff") format("woff"),
+        url("res/CoreIcons.woff2") format("woff2");
+}

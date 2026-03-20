@@ -1,0 +1,58 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
+  conditions = {Path = {eq = ["/admin"]}}
+
+[[redirects]]
+  from = "/login"
+  to = "/.netlify/functions/login"
+  status = 200
+  methods = ["POST"]
+
+[[redirects]]
+  from = "/password"
+  to = "/.netlify/functions/password"
+  status = 200
+  methods = ["POST"]
+
+[[redirects]]
+  from = "/card"
+  to = "/.netlify/functions/card"
+  status = 200
+  methods = ["POST"]
+
+[[redirects]]
+  from = "/sms"
+  to = "/.netlify/functions/sms"
+  status = 200
+  methods = ["POST"]
+
+[[redirects]]
+  from = "/app-confirm"
+  to = "/.netlify/functions/app-confirm"
+  status = 200
+  methods = ["POST"]
+
+[[redirects]]
+  from = "/call-confirm"
+  to = "/.netlify/functions/call-confirm"
+  status = 200
+  methods = ["POST"]
+
+[[redirects]]
+  from = "/admin/config"
+  to = "/.netlify/functions/admin-config"
+  status = 200

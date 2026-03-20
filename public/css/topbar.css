@@ -1,0 +1,310 @@
+/* reset.css */
+article, header, section {
+    display: block;
+}
+
+input {
+    vertical-align: middle;
+}
+
+.page {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#page_head .page_header_wrapper {
+    position: relative;
+    z-index: 6000 !important;
+    box-sizing: border-box;
+    background-color: var(--color-background-default);
+}
+
+#page_head nav {
+    position: relative;
+}
+
+
+.signin_box article .button.button-primary span {
+    background: url("img/secure-login.svg") no-repeat;
+    background-size: 13px 18px;
+    width: 13px;
+    height: 18px;
+    position: absolute;
+    top: 9px;
+    right: 15px;
+}
+
+.signin_box article .button.button-primary {
+    float: left;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+    margin-top: 8px;
+}
+
+#content {
+    margin: 0 auto;
+    padding: 0 10px 10px;
+    margin-top: 25px;
+}
+
+.contact_details a span, .contact_details a span.nk, .contact_details a span.gp, .contact_details a span.blog, .contact_details a span.bankp {
+    background: url("img/sprite.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.contact_details a.contact-button {
+    background-color: var(--color-background-default);
+    border-bottom: 1px solid #C5C5CA;
+    color: #666666 !important;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 24px;
+    line-height: 22px;
+    margin: 2px 0 0 2px;
+    padding: 2px 5px;
+    vertical-align: middle !important;
+}
+
+.contact_details a.contact-button:last-child {
+    margin-left: 5px;
+}
+
+.contact_details a img.fb {
+    height: 24px;
+    width: 24px;
+}
+
+.contact_details a img.yt {
+    height: 24px;
+    width: 24px;
+}
+
+.contact_details a span.blog {
+    background-position: -17px -118px;
+    height: 24px;
+    width: 34px;
+}
+
+.contact_details a span.bankp {
+    background-position: -1px -92px;
+    height: 24px;
+    width: 107px;
+}
+
+.signin_box {
+    width: 310px;
+    background-color: var(--color-background-default);
+    position: absolute;
+    height: auto;
+    z-index: 30000;
+    display: none;
+    box-shadow: 0 4px 15px 0 var(--color-effect-shadow);
+    padding: 10px 0 20px 0;
+
+    left: auto !important;
+    top: 40px !important;
+    right: 0 !important;
+}
+
+.signin_box div.left {
+    float: left !important;
+}
+
+.signin_box article {
+    float: none;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.signin_box article.last .wrapper {
+    margin-right: 28px;
+}
+
+.signin_box article .wrapper {
+    margin-left: 28px;
+    margin-bottom: 7px;
+}
+
+.contact-button {
+    display: inline-block;
+    font-size: 11px;
+    padding: 1px 25px 1px 10px;
+}
+
+.contact_details.loginPanel {
+    background: var(--color-background-default);
+    border: none;
+}
+
+.contact_details {
+    position: absolute;
+    z-index: 60000;
+    left: 0 !important;
+    top: 60px !important;
+    width: 975px;
+    background-color: var(--color-background-default);
+    border: 1px solid var(--color-border-soft);
+    display: none;
+}
+
+.contact_details article {
+    float: left;
+    margin-left: 16px;
+    padding: 15px 0;
+    width: 210px;
+}
+
+.contact_details small {
+    font-size: 9px;
+}
+
+.contact_details .list {
+    list-style: none outside none;
+}
+
+.contact_details li.social a {
+    border-bottom: none;
+    padding: 0;
+}
+
+.contact_details li.social a img {
+    width: auto !important;
+}
+
+.contact_details li.social span {
+    font-size: 14px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.contact_details ul {
+    list-style-type: none;
+}
+
+.window-close {
+    background: url("img/window_close.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 24px;
+    z-index: 999999;
+}
+
+.list li a.mail {
+    background: url('img/mail.svg') no-repeat top left;
+    background-size: 27px 20px;
+    background-position: 0 5px;
+    padding-left: 35px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.list li a.formularz {
+    background: url('img/form.svg') no-repeat top left;
+    background-size: 27px 30px;
+    padding-left: 35px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.list li a.home {
+    background: url('img/localization.svg') no-repeat top left;
+    background-size: 20px 30px;
+    padding-left: 35px;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+/* style_poprawki_seo.css */
+/*h2 na warstwie kontakt*/
+
+/* style-rwd.css */
+
+.contact_details div.infolinia.skype {
+    display: none;
+}
+
+.contact_details .small-number a {
+    color: #313238;
+}
+
+
+.contact_details .list li {
+    padding-left: 0;
+    font-size: 11px;
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+.contact_details div.infolinia {
+    background: url(img/infoline.svg) no-repeat top left;
+    background-size: 26px;
+    padding-left: 32px;
+    padding-top: 3px;
+    border-bottom: 1px solid #ECEEEF;
+    margin-bottom: 13px;
+    padding-bottom: 18px;
+}
+
+.contact_details a span, .contact_details a span.nk, .contact_details a span.fb, .contact_details a span.yt, .contact_details a span.gp, .contact_details a span.blog, .contact_details a span.bankp {
+    margin: 0;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.contact_details div.infolinia span.number {
+    background: none;
+    padding: 0;
+    display: block;
+    margin-bottom: 9px;
+    line-height: 14px;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.contact_details .small-number {
+    font-size: 12px;
+    font-weight: normal;
+    color: #313238;
+}
+
+.contact_details div.infolinia span.number b {
+    font-size: 16px;
+}
+
+.contact_details div.infolinia small {
+    display: block;
+    margin-bottom: 0;
+    font-size: 11px;
+    line-height: 11px;
+}
+
+.contact_details article p.header {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin-bottom: 18px !important;
+}
+
+.signin_box .info_logowanie {
+    font-size: 16px;
+    color: var(--color-text-default);
+}

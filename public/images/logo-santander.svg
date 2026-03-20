@@ -1,0 +1,1862 @@
+<!doctype html> 
+<html data-segment="" data-cms="activecontent" data-client="santanderbankpolska" data-site="santanderbankpolska" data-node-id="1500586" data-youtube-api-key="AIzaSyCBeWcHLsAc9o6anikUBn4tdIpW9UEIqq4" lang="pl" data-timestamp="time20260303072317" data-page-language-versions="{&quot;uk&quot;:&quot;/uk/404&quot;,&quot;en&quot;:&quot;/en/404&quot;,&quot;pl&quot;:&quot;/404&quot;,&quot;es&quot;:&quot;/es/404&quot;}" data-node-content-current-millis="1772617388299" data-node-content-timestamp="2026-03-04T10:43:08.299">
+ <head>
+  <meta charset="utf-8">
+  <title>404 - Santander</title>
+      <!-- Teallium -->	
+  <script type="text/javascript" nonce="/U4NhSBrajaaNUb9O19jBQ==">	
+  var utag_data = {	
+  			event_category : "",	
+  			event_action : "",	
+  			event_label : ""	
+  		};	</script>	
+     <script type="text/javascript" nonce="/U4NhSBrajaaNUb9O19jBQ==">	
+    (function(a,b,c,d){
+      a_pre='https://tags.tiqcdn.com/utag/wa-poland/';
+      a='pl-santander.pl/PROD-3';
+      a_after='/utag.js';
+      e='sha256-mWRkwdxKBXQQUqekTZaePtoh42W48PCfT+4yp9D7Gck=';
+      a=a_pre + a + a_after;
+      // a='https://tags.tiqcdn.com/utag/santander/pl-santander.pl/prod/utag.js';
+      b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;d.id='async-utag-script';d.integrity=e;d.crossOrigin="anonymous";
+      a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);	
+    })();	
+  </script>
+  <meta content="Santander Bank Polska SA (dawniej BZ WBK - Bank Zachodni WBK SA). Sprawdź naszą ofertę produktów finansowych i dołącz do milionów zadowolonych klientów." name="description">
+  <meta content="santander, bank santander, bzwbk" name="keywords">
+  <meta content="" name="robots">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="ahrefs-site-verification" content="402a4fe8a035c85f04a8cf43b44d366ba3a3f9df57a9c290780b0f2cb4e32190">
+  <meta name="google-site-verification" content="aiysUXc6SFroEsEPgMeV0AZ54Pz3CS31NVRhQnGWSUk">
+  <link rel="icon" type="image/x-icon" href="/_template/time20251126091327/1500120/util/favicon.ico?v=1">
+	
+  
+  
+  
+ <link as="font" crossorigin="" rel="preload" href="/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/web-font.ttf" type="font/ttf"><link as="font" crossorigin="" rel="preload" href="/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderHeadline/SantanderHeadline-Regular.woff2" type="font/woff2"><link as="font" crossorigin="" rel="preload" href="/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderHeadline/SantanderHeadline-Bold.woff2" type="font/woff2"><link as="font" crossorigin="" rel="preload" href="/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderMicroText/SantanderMicroText-Bd.woff2" type="font/woff2"><link as="font" crossorigin="" rel="preload" href="/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderMicroText/SantanderMicroText.woff2" type="font/woff2">
+<style type="text/css" nonce="/U4NhSBrajaaNUb9O19jBQ==">@font-face {
+  font-family: "SantanderTextW05";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderTextW05/SantanderTextW05-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SantanderTextW05";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderTextW05/SantanderTextW05-BoldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SantanderTextW05";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderTextW05/SantanderTextW05-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SantanderTextW05";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderTextW05/SantanderTextW05-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SantanderTextW05";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderTextW05/SantanderTextW05-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SantanderTextW05";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderTextW05/SantanderTextW05-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Santander Headline";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderHeadline/SantanderHeadline-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Santander Headline";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderHeadline/SantanderHeadline-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Santander MicroText";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderMicroText/SantanderMicroText.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Santander MicroText";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/SantanderMicroText/SantanderMicroText-Bd.woff2") format("woff2");
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+/*
+ * Plik web-fonts.scss jest generowany automatycznie na podstawie pliku
+ * _fonts-generator.scss. Nie nadpisuj pliku web-fonts.scss
+ */
+@font-face {
+  font-family: "web-font";
+  src: url("/_cms-css/time20260303072317/scss/santanderbankpolska/fonts/web-font.ttf") format("truetype");
+  font-display: swap;
+}
+.icon-arrow-down-1:before {
+  content: "\e001";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-owl-carousel-arrow-right:before {
+  content: "\e002";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-owl-carousel-arrow-left:before {
+  content: "\e003";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-down:before {
+  content: "\e004";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-axis-down:before {
+  content: "\e005";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-axis-up:before {
+  content: "\e006";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-loup:before {
+  content: "\e007";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-close:before {
+  content: "\e008";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-xls:before {
+  content: "\e009";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-doc:before {
+  content: "\e00a";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-file:before {
+  content: "\e00b";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-pdf:before {
+  content: "\e00c";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ppt:before {
+  content: "\e00d";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-axis-right:before {
+  content: "\e00e";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_telefon:before {
+  content: "\e00f";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_online:before {
+  content: "\e010";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_oddzial:before {
+  content: "\e011";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-breadcrumbs_arrow:before {
+  content: "\e012";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-breadcrumbs_house:before {
+  content: "\e013";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-check:before {
+  content: "\e014";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-axis-left:before {
+  content: "\e015";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-geolocalisation:before {
+  content: "\e016";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-alert:before {
+  content: "\e017";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-map:before {
+  content: "\e018";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-list:before {
+  content: "\e019";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places:before {
+  content: "\e01a";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-padlock:before {
+  content: "\e01b";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-facebook:before {
+  content: "\e01c";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-instagram:before {
+  content: "\e01d";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-linkedin:before {
+  content: "\e01e";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-twitter:before {
+  content: "\e01f";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-blog:before {
+  content: "\e020";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-youtube:before {
+  content: "\e021";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-right:before {
+  content: "\e022";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-up:before {
+  content: "\e023";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-download:before {
+  content: "\e024";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_bez_barier:before {
+  content: "\e025";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_bezgotowkowe:before {
+  content: "\e026";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_1:before {
+  content: "\e027";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_2:before {
+  content: "\e028";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_3:before {
+  content: "\e029";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_4:before {
+  content: "\e02a";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_5:before {
+  content: "\e02b";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_6:before {
+  content: "\e02c";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_7:before {
+  content: "\e02d";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_8:before {
+  content: "\e02e";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_9:before {
+  content: "\e02f";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_10:before {
+  content: "\e030";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_11:before {
+  content: "\e031";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_12:before {
+  content: "\e032";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_13:before {
+  content: "\e033";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_14:before {
+  content: "\e034";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_nobarrier_15:before {
+  content: "\e035";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_partner:before {
+  content: "\e036";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_petla_indukcyjna:before {
+  content: "\e037";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_wplatomaty_limit:before {
+  content: "\e038";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_zblizeniowe:before {
+  content: "\e039";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_obsluga_glosowa:before {
+  content: "\e03a";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_banking:before {
+  content: "\e03b";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_computer:before {
+  content: "\e03c";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_person:before {
+  content: "\e03d";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_phone:before {
+  content: "\e03e";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-places_attribute_smskod:before {
+  content: "\e03f";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-info_tooltip:before {
+  content: "\e040";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-invest:before {
+  content: "\e041";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_kurier:before {
+  content: "\e042";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_przelew:before {
+  content: "\e043";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_videochat:before {
+  content: "\e044";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_face_id:before {
+  content: "\e045";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-ico_online_2:before {
+  content: "\e046";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-umbrella:before {
+  content: "\e047";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow_angle_left_up:before {
+  content: "\e048";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-print:before {
+  content: "\e049";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-outside:before {
+  content: "\e04a";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-headset:before {
+  content: "\e04b";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-location:before {
+  content: "\e04c";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-search:before {
+  content: "\e04d";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-security-close:before {
+  content: "\e04e";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-burger_menu:before {
+  content: "\e04f";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-chevron_down:before {
+  content: "\e050";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-chevron_right_small:before {
+  content: "\e051";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-chevron_up:before {
+  content: "\e052";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-close-new:before {
+  content: "\e053";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-facebook_new:before {
+  content: "\e054";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-instagram_new:before {
+  content: "\e055";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-linkedin_new:before {
+  content: "\e056";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-twitter_new:before {
+  content: "\e057";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-youtube_new:before {
+  content: "\e058";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-error:before {
+  content: "\e059";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-check_new:before {
+  content: "\e05a";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-check_light:before {
+  content: "\e05b";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-chevron-right:before {
+  content: "\e05c";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-chevron-left:before {
+  content: "\e05d";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-axis-right-new:before {
+  content: "\e05e";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-axis-left-new:before {
+  content: "\e05f";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-arrow-axis-down-new:before {
+  content: "\e060";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-action-dots:before {
+  content: "\e061";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-tooltip-question-mark:before {
+  content: "\e062";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-chart:before {
+  content: "\e063";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-filter:before {
+  content: "\e064";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-info:before {
+  content: "\e065";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-warning:before {
+  content: "\e066";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-trash:before {
+  content: "\e067";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-filter-filled:before {
+  content: "\e068";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-share:before {
+  content: "\e069";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-linkedin-filled:before {
+  content: "\e06a";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-whatsapp:before {
+  content: "\e06b";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-x:before {
+  content: "\e06c";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-mail:before {
+  content: "\e06d";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-copy:before {
+  content: "\e06e";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-compass:before {
+  content: "\e06f";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-filters:before {
+  content: "\e070";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-guide:before {
+  content: "\e071";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-menu:before {
+  content: "\e072";
+  font-family: "web-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}</style>
+<link rel="stylesheet" type="text/css" href="/_cms-css/time20260303072317/scss/santanderbankpolska/site-components-head.css" fetchpriority="high" nonce="/U4NhSBrajaaNUb9O19jBQ==">
+ 	<style type="text/css" nonce="/U4NhSBrajaaNUb9O19jBQ==">div.footer-new__copy-text{margin-top:20px}</style>
+	<script defer fetchpriority="high" type="text/javascript" src="/_cms-js/time20260303072317/components-manager.js" nonce="/U4NhSBrajaaNUb9O19jBQ=="></script><script type="text/javascript" src="/_cms-js/time20260303072317/site-head.js" nonce="/U4NhSBrajaaNUb9O19jBQ=="></script><script type="text/javascript" nonce="/U4NhSBrajaaNUb9O19jBQ==">function setupAbTestParameters(_gaq) {}</script>
+   
+  
+  <link rel="canonical" href="https://www.santander.pl/404"> 
+  <link rel="alternate" href="https://www.santander.pl/en/404" hreflang="en"><link rel="alternate" href="https://www.santander.pl/404" hreflang="pl"><link rel="alternate" href="https://www.santander.pl/uk/404" hreflang="uk"><link rel="alternate" href="https://www.santander.pl/es/404" hreflang="es">
+ <style nonce="/U4NhSBrajaaNUb9O19jBQ==">.c-2lum{color:#ec0000 !important;}
+.c-urya{font-weight:700 !important;}
+.c-fdfv{text-align:center !important;margin-top:20px !important;}</style></head>
+ <body class="error_404" data-system-url="/404">
+<link rel="stylesheet" href="/_cms-css/time20260303072317/scss/santanderbankpolska/site-components-ts-tail.css" media="none" fetchpriority="low" nonce="/U4NhSBrajaaNUb9O19jBQ=="><link rel="stylesheet" href="/_cms-css/time20260303072317/scss/santanderbankpolska/site-components-tail.css" media="none" fetchpriority="low" nonce="/U4NhSBrajaaNUb9O19jBQ==">
+  
+  
+  
+    <div id="content_wrapper"><header><div class="layout_element layout_section"><div class="layout_element layout_container"><div class="layout_element layout_row row row"><div class="layout_element layout_column  col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-sm-12 col-md-12 col-lg-12"><div class="layout_element component_wrapper wrapped_header" id="component_wrapper_3317709"><div class="component header v-static component_3317709" data-component-id="3317709" data-component-type-code="header" data-is-bannerable="true" data-is-ts-component="false" data-js-parameters="{&quot;isTSVersion&quot;:false,&quot;virtual_path_present&quot;:&quot;false&quot;,&quot;node_url&quot;:&quot;/apple-touch-icon-precomposed.png&quot;}" id="header_1_07012019"><div class="header__site header__site--logo-only header__site--logo-noradius header__site--logo-static-mobile">
+  <!-- data-skip-link="Przejdź do menu głównego" data-skiplink-mobile="Przejdź do menu głównego" -->
+<div class="header__inner">
+<nav class="header__bottom">
+<div class="header__bottom-inner">
+        <div class="header__logo"><figure><a href="/"><picture><source type="image/webp" srcset="/_fileserver/time20220831030513/item/webp/1503410"><img class="header__logo--desktop" alt="" src="/_fileserver/time20220831030513/item/1503410"></picture><picture><source type="image/webp" srcset="/_fileserver/time20220831030513/item/webp/1503411"><img class="header__logo--mobile" alt="" src="/_fileserver/time20220831030513/item/1503411"></picture></a><figcaption class="sr-only">Santander Bank Polska</figcaption></figure></div>
+        </div>
+</nav>
+</div>
+</div><div class="clearFix"></div></div></div></div></div></div></div></header><main><div class="layout_element layout_section v-404"><div class="layout_element layout_container"><div class="layout_element layout_row row row"><div class="layout_element layout_column  col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-sm-12 col-md-12 col-lg-12"><div class="layout_element component_wrapper wrapped_content" id="component_wrapper_3317710"><div class="component content error404-area component_3317710" data-component-id="3317710" data-component-type-code="content" data-is-bannerable="false" data-is-ts-component="true" data-js-parameters="{&quot;virtual_path_present&quot;:&quot;false&quot;,&quot;node_url&quot;:&quot;/apple-touch-icon-precomposed.png&quot;}" data-skip-link="Przejdź do treści" data-utag-set="" data-utag-type="dc_content" id="content_1_07012019"><div class="content_area" id="component_content_3317710"><h1 class="h3 c-2lum">Przepraszamy,<br> strona nie została odnaleziona lub jest obecnie niedostępna.</h1>
+
+<p>Przejdź do:</p>
+
+<div class="error404-area__buttons"><a class="button" href="/klient-indywidualny">Strona główna</a> <a class="button" href="/klient-indywidualny/kontakt">Strona kontaktu</a></div>
+<div class="clearFix"></div></div><div class="clearFix"></div></div></div></div></div></div></div></main><footer><div class="layout_element layout_section"><div class="layout_element layout_container"><div class="layout_element layout_row row row"><div class="layout_element layout_column  col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-sm-12 col-md-12 col-lg-12"><div class="layout_element component_wrapper wrapped_footer" id="component_wrapper_3317711"><div class="component footer component_3317711" data-component-id="3317711" data-component-type-code="footer" data-is-bannerable="false" data-is-ts-component="false" data-js-parameters="{&quot;isTSVersion&quot;:true,&quot;virtual_path_present&quot;:&quot;false&quot;,&quot;node_url&quot;:&quot;/apple-touch-icon-precomposed.png&quot;}" id="footer_1_16012019"><div class="footer-new se-ignore footer__site footer__site--individual-clients footer-with-ts">
+  <div class="footer-new__inner">
+    <div class="footer-new__top">
+      <div class="footer-new__container">
+        <div class="footer-new__content">
+          <nav class="footer-new__navigation" data-expand-status="false" aria-label="Menu w stopce">
+            <div class="content_area"><div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="footer-new__navigation-element footer-new__contact-section">
+        <h2 class="footer-new__navigation-title js-footer-nav-title">Kontakt</h2>
+        <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+          <div class="content_area"><div class="footer-new__contact-inner">
+  <ul class="footer-new__contact-content ">
+
+    <li class="footer-new__contact-item-wrapper">
+      <div class="footer-new__contact-media">
+        <div class="footer-new__contact-media--left">
+          <img src="/_fileserver/time20201207091844/item/1506291" class="footer-new__contact-media-object" alt="" loading="lazy" width="48" height="48">
+        </div>
+        <div class="footer-new__contact-media-body">
+          <p class="footer-new__contact-text">
+            Zadzwoń do nas<br><span class="c-urya">1&nbsp;9999</span><br>
+            <span class="note">Oferta <br>(konta, depozyty, kredyty)</span></p>
+       <p class="footer-new__contact-media-heading h6"><a class="button" href="/klient-indywidualny/kontakt?santag-camp=link-from-footer-ki">Sprawdź</a></p>
+        </div>
+      </div>
+    </li>
+	
+    <li class="footer-new__contact-item-wrapper">
+      <div class="footer-new__contact-media">
+        <div class="footer-new__contact-media--left">
+          <img src="/_cms-img/time20260303072317/santander/footer/online_advisor_new.svg" class="footer-new__contact-media-object" alt="" loading="lazy" width="48" height="48">
+        </div>
+        <div class="footer-new__contact-media-body">
+          <p class="footer-new__contact-text">
+            Połącz się<br>
+            z doradcą <span lang="en">online</span>
+          </p>
+          <p class="footer-new__contact-media-heading h6"><a class="button" href="/doradca-online-kontakt?santag-camp=link-from-footer-ki">Porozmawiaj</a></p>
+        </div>
+      </div>
+    </li>
+
+    <li class="footer-new__contact-item-wrapper">
+      <div class="footer-new__contact-media">
+        <div class="footer-new__contact-media--left">
+          <img src="/_fileserver/time20230705104625/item/1516293" class="footer-new__contact-media-object" alt="" loading="lazy" width="48" height="48">
+        </div>
+        <div class="footer-new__contact-media-body">
+          <p class="footer-new__contact-text">
+            Napisz do nas</p>
+          <p class="footer-new__contact-media-heading h6">
+            <a class="button" href="/klient-indywidualny/kontakt/formularz-kontaktowy-stopka?santag-camp=link-from-footer-ki">Wypełnij formularz</a>
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</div></div>
+          <p class="c-fdfv">Znajdź <a href="/przydatne-informacje/placowki-i-bankomaty?santag-camp=link-from-footer-ki" class="link">oddział lub bankomat</a></p>
+        </div>
+      </div>
+		</div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-3">
+    <div class="footer-new__navigation-element">
+      <h3 class="footer-new__navigation-title js-footer-nav-title">Poszukaj informacji</h3>
+      <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+        <ul role="list" class="links menu_list"><li class="node lv_0 item_1 is_first" data-item-number=" item_1" data-utag-comp-title="ds_footer_ki_contact_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Pytania i odpowiedzi" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/klient-indywidualny/kontakt#2=6"><span data-utag-header="">Pytania i odpowiedzi</span></a></li><li class="node lv_0 item_2" data-item-number=" item_2" data-utag-comp-title="ds_footer_ki_contact_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Bank porad" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/bank-porad"><span data-utag-header="">Bank porad</span></a></li><li class="node lv_0 item_3" data-item-number=" item_3" data-utag-comp-title="ds_footer_ki_contact_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Bezpieczne bankowanie" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/bezpieczne-bankowanie"><span data-utag-header="">Bezpieczne bankowanie</span></a></li><li class="node lv_0 item_4 is_last" data-item-number=" item_4" data-utag-comp-title="ds_footer_ki_contact_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Zaktualizuj swoje dane" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/klient-indywidualny/bankowosc-internetowa/santander-internet/zaktualizuj-swoje-dane"><span data-utag-header="">Zaktualizuj swoje dane</span></a></li></ul>
+      </div>
+    </div>
+  </div>
+    <div class="col-xs-12 col-sm-12 col-md-3">
+      <div class="footer-new__navigation-element">
+        <h3 class="footer-new__navigation-title js-footer-nav-title">Przydatne informacje</h3>
+        <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+          <ul role="list" class="links menu_list"><li class="node lv_0 item_1 is_first" data-item-number=" item_1" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Zobacz wszystkie" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje"><span data-utag-header="">Zobacz wszystkie</span><span class="sr-only">  przydatne informacje</span></a></li><li class="node lv_0 item_2" data-item-number=" item_2" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Kursy walut" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/kursy-walut"><span data-utag-header="">Kursy walut</span></a></li><li class="node lv_0 item_3" data-item-number=" item_3" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Opłaty i prowizje" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/oplaty-i-prowizje#3=1"><span data-utag-header="">Opłaty i prowizje</span></a></li><li class="node lv_0 item_4" data-item-number=" item_4" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Oprocentowanie dla Ciebie" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/oprocentowanie"><span data-utag-header="">Oprocentowanie dla Ciebie</span></a></li><li class="node lv_0 item_5" data-item-number=" item_5" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Regulacje i regulaminy" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/regulacje-i-regulaminy"><span data-utag-header="">Regulacje i regulaminy</span></a></li><li class="node lv_0 item_6" data-item-number=" item_6" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Obsługa kredytów w CHF" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/kredyt-we-frankach"><span data-utag-header="">Obsługa kredytów w CHF</span></a></li><li class="node lv_0 item_7" data-item-number=" item_7" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Nieruchomości na sprzedaż" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/sprzedaz-nieruchomosci"><span data-utag-header="">Nieruchomości na sprzedaż</span></a></li><li class="node lv_0 item_8" data-item-number=" item_8" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Otwarta bankowość (PSD2)" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/psd2"><span data-utag-header="">Otwarta bankowość (<span lang="en">PSD2</span>)</span></a></li><li class="node lv_0 item_9" data-item-number=" item_9" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Informacja dotycząca wskaźników referencyjnych" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/informacja-dotyczaca-wskaznikow-referencyjnych"><span data-utag-header="">Informacja dotycząca wskaźników referencyjnych</span></a></li><li class="node lv_0 item_10 is_last" data-item-number=" item_10" data-utag-comp-title="ds_footer_ki_informations_first_column" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Spłata zobowiązań" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/splata-zobowiazan"><span data-utag-header="">Spłata zobowiązań</span></a></li></ul>
+        </div>
+      </div>
+		</div>
+    <div class="col-xs-12 col-sm-12 col-md-3">
+			<div class="footer-new__navigation-element">
+        <h3 class="footer-new__navigation-title js-footer-nav-title">Santander Bank Polska</h3>
+        <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+          <ul role="list" class="links menu_list"><li class="node lv_0 item_1 is_first" data-item-number=" item_1" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="O nas" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/relacje-inwestorskie/informacje-o-spolce"><span data-utag-header="">O nas</span></a></li><li class="node lv_0 item_2" data-item-number=" item_2" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Kariera" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/kariera"><span data-utag-header="">Kariera</span></a></li><li class="node lv_0 item_3" data-item-number=" item_3" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Aktualności" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/aktualnosci"><span data-utag-header="">Aktualności</span></a></li><li class="node lv_0 item_4" data-item-number=" item_4" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="ext acn-ga-link" data-ga-action="Biuro prasowe" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="https://media.santander.pl/" rel="nofollow noopener" target="_blank"><span data-utag-header="">Biuro prasowe</span><span class="sr-only"> Uruchomi się w nowym oknie</span></a></li><li class="node lv_0 item_5" data-item-number=" item_5" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Relacje inwestorskie" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/relacje-inwestorskie"><span data-utag-header="">Relacje inwestorskie</span></a></li><li class="node lv_0 item_6" data-item-number=" item_6" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="System Partnerski" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/placowka-partnerska"><span data-utag-header="">System Partnerski</span></a></li><li class="node lv_0 item_7" data-item-number=" item_7" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Bankowy Fundusz Gwarancyjny" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/bankowy-fundusz-gwarancyjny"><span data-utag-header="">Bankowy Fundusz Gwarancyjny</span></a></li><li class="node lv_0 item_8" data-item-number=" item_8" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="FATCA / CRS" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/fatca-crs"><span data-utag-header=""><span lang="en">FATCA / CRS</span></span></a></li><li class="node lv_0 item_9" data-item-number=" item_9" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="MIFID" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/klient-indywidualny/oszczednosci-i-inwestycje/mifid"><span data-utag-header=""><span lang="en">MIFID</span></span></a></li><li class="node lv_0 item_10" data-item-number=" item_10" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Rzecznik Klienta" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/rzecznik-klienta"><span data-utag-header="">Rzecznik Klienta</span></a></li><li class="node lv_0 item_11" data-item-number=" item_11" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Reklamacje" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/klient-indywidualny/kontakt/reklamacje"><span data-utag-header="">Reklamacje</span></a></li><li class="node lv_0 item_12 is_last" data-item-number=" item_12" data-utag-comp-title="footer_o_banku" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Strategia podatkowa" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/strategia-podatkowa"><span data-utag-header="">Strategia podatkowa</span></a></li></ul>
+        </div>
+      </div>
+		</div>
+    <div class="col-xs-12 col-sm-12 col-md-3">
+			<div class="footer-new__navigation-element">
+        <h3 class="footer-new__navigation-title js-footer-nav-title">Inne serwisy</h3>
+        <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+          <ul role="list" class="links menu_list"><li class="node lv_0 item_1 is_first" data-item-number=" item_1" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="ext acn-ga-link" data-ga-action="Fundacja Santander" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="https://fundacja.santander.pl/" rel="nofollow noopener" target="_blank"><span data-utag-header="">Fundacja Santander</span><span class="sr-only"> Uruchomi się w nowym oknie</span></a></li><li class="node lv_0 item_2" data-item-number=" item_2" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="ext acn-ga-link" data-ga-action="Santander Allianz" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="https://www.santander.allianz.pl/" rel="nofollow noopener" target="_blank"><span data-utag-header="">Santander <span lang="de">Allianz</span></span><span class="sr-only"> Uruchomi się w nowym oknie</span></a></li><li class="node lv_0 item_3" data-item-number=" item_3" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Santander Biuro Maklerskie" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/inwestor"><span data-utag-header="">Santander Biuro Maklerskie</span></a></li><li class="node lv_0 item_4" data-item-number=" item_4" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Edukacja" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/edukacja"><span data-utag-header="">Edukacja</span></a></li><li class="node lv_0 item_5" data-item-number=" item_5" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Santander Factoring" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/factoring"><span data-utag-header="">Santander <span lang="en">Factoring</span></span></a></li><li class="node lv_0 item_6" data-item-number=" item_6" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Fundusze Inwestycyjne Santander" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/tfi"><span data-utag-header="">Fundusze Inwestycyjne Santander</span></a></li><li class="node lv_0 item_7" data-item-number=" item_7" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Santander Leasing" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/santander-leasing"><span data-utag-header="">Santander <span lang="en">Leasing</span></span></a></li><li class="node lv_0 item_8" data-item-number=" item_8" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="ext acn-ga-link" data-ga-action="Santander Rabaty" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="https://rabaty.santander.pl/welcome" rel="nofollow noopener" target="_blank"><span data-utag-header="">Santander Rabaty</span><span class="sr-only"> Uruchomi się w nowym oknie</span></a></li><li class="node lv_0 item_9 is_last" data-item-number=" item_9" data-utag-comp-title="ds_footer_ki_inne_serwisy" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Work Café" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/klient-indywidualny/santander-work-cafe"><span data-utag-header=""><span lang="en">Work Café</span></span></a></li></ul>
+        </div>
+      </div>
+		</div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-3">
+			<div class="footer-new__navigation-element">
+        <h3 class="footer-new__navigation-title js-footer-nav-title">Odpowiedzialna bankowość</h3>
+        <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+          <ul role="list" class="links menu_list"><li class="node lv_0 item_1 is_first" data-item-number=" item_1" data-utag-comp-title="footer__dzialalnosc_spoleczna" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="ext acn-ga-link" data-ga-action="Odpowiedzialny biznes" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="https://esg.santander.pl" rel="nofollow noopener" target="_blank"><span data-utag-header="">Odpowiedzialny biznes</span><span class="sr-only"> Uruchomi się w nowym oknie</span></a></li><li class="node lv_0 item_2" data-item-number=" item_2" data-utag-comp-title="footer__dzialalnosc_spoleczna" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Obsługa bez barier" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/obsluga-bez-barier" rel="nofollow"><span data-utag-header="">Obsługa bez barier</span></a></li><li class="node lv_0 item_3" data-item-number=" item_3" data-utag-comp-title="footer__dzialalnosc_spoleczna" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="ext acn-ga-link" data-ga-action="Finansiaki" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="https://finansiaki.pl/" rel="nofollow noopener" target="_blank"><span data-utag-header="">Finansiaki</span><span class="sr-only"> Portal edukacji finansowej dla dzieci i młodzieży</span><span class="sr-only"> Uruchomi się w nowym oknie</span></a></li><li class="node lv_0 item_4 is_last" data-item-number=" item_4" data-utag-comp-title="footer__dzialalnosc_spoleczna" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Rzecz jasna" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/lp/rzecz-jasna" rel="nofollow"><span data-utag-header="">Rzecz jasna</span></a></li></ul>
+        </div>
+      </div>
+		</div>
+    <div class="col-xs-12 col-sm-12 col-md-3">
+			<div class="footer-new__navigation-element">
+        <h3 class="footer-new__navigation-title js-footer-nav-title">Polityki i regulaminy</h3>
+        <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+          <ul role="list" class="links menu_list"><li class="node lv_0 item_1 is_first" data-item-number=" item_1" data-utag-comp-title="footer__regulations_links" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Regulamin serwisu" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/regulamin-serwisu"><span data-utag-header="">Regulamin serwisu</span></a></li><li class="node lv_0 item_2" data-item-number=" item_2" data-utag-comp-title="footer__regulations_links" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Polityka prywatności" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/polityka-prywatnosci-serwisow-internetowych"><span data-utag-header="">Polityka prywatności</span></a></li><li class="node lv_0 item_3" data-item-number=" item_3" data-utag-comp-title="footer__regulations_links" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Polityka przetwarzania danych osobowych (RODO)" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/przydatne-informacje/polityka-przetwarzania-danych-osobowych"><span data-utag-header="">Polityka przetwarzania danych osobowych (RODO)</span></a></li><li class="node lv_0 item_4 is_last" data-item-number=" item_4" data-utag-comp-title="footer__regulations_links" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="Polityka cookies" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/polityka-cookies"><span data-utag-header="">Polityka <span lang="en">cookies</span></span></a></li></ul>
+        </div>
+      </div>
+		</div>
+    <div class="col-xs-12 col-sm-12 col-md-3">
+			<div class="footer-new__navigation-element">
+        <h3 class="footer-new__navigation-title js-footer-nav-title">Inne wersje językowe</h3>
+        <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+          <ul role="list" class="links menu_list"><li class="node lv_0 item_1 is_first" data-item-number=" item_1" data-utag-comp-title="ds-footer-ki-inne-jezyki" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="santander.pl EN" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/en/about-santander"><span data-utag-header="">santander.pl EN</span></a></li><li class="node lv_0 item_2" data-item-number=" item_2" data-utag-comp-title="ds-footer-ki-inne-jezyki" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="santander.pl ES" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/es/acerca-del-santander"><span data-utag-header="">santander.pl ES</span></a></li><li class="node lv_0 item_3 is_last" data-item-number=" item_3" data-utag-comp-title="ds-footer-ki-inne-jezyki" data-utag-set="" data-utag-type="menu"><a data-utag-link="" class="acn-ga-link" data-ga-action="santander.pl UA" data-ga-name="Menu" data-ga-uri="\/apple-touch-icon-precomposed.png" href="/uk/ukraina-oferta"><span data-utag-header="">santander.pl UA</span></a></li></ul>
+        </div>
+      </div>
+		</div>
+    <div class="col-xs-12 col-sm-12 col-md-3">
+			<div class="footer-new__navigation-element">
+        <h3 class="footer-new__navigation-title js-footer-nav-title">Kod SWIFT</h3>
+        <div class="footer-new__navigation-menu js-footer-nav-dropdown">
+          <p class="footer-new__swift-code-info">Kod SWIFT to WBKPPLPP</p>
+        </div>
+      </div>
+		</div>
+  </div>
+</div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="footer-new__middle">
+      <div class="footer-new__container">
+        <div class="footer-new__content">
+          <div class="footer-new__utilities">
+            <div class="footer-new__socials">
+              <div class="content_area"><div class="footer-new__socials-wrapper">
+<div class="footer-new__logo">
+<figure>
+<a href="/klient-indywidualny">
+<img alt="Santander Bank Polska" loading="lazy" src="/_cms-img/time20260303072317/santander/logos/santander_logo_footer_new.svg">
+</a>
+</figure>
+</div>
+<div class="footer-new__socials-text">
+<p><span class="js-footer__copy-year"></span> © Santander Bank Polska. Wszelkie prawa zastrzeżone. Nazwa Santander i logo ,,płomień” są zarejestrowanymi znakami towarowymi.</p>
+</div>
+<ul class="list-unstyled footer-new__socials-list list--default">
+<li class="footer-new__socials-element">
+<a href="https://www.facebook.com/santanderbankpolska/" rel="nofollow noopener" target="_blank">
+<span aria-hidden="true" class="icon-facebook_new"></span>
+<span class="sr-only">Profil Santander Bank Polska na portalu <span lang="en">Facebook</span></span>
+<span class="sr-only-target sr-only"> Uruchomi się w nowym oknie</span>
+</a>
+</li>
+<li class="footer-new__socials-element">
+<a href="https://www.instagram.com/santanderbankpolska/" rel="nofollow noopener" target="_blank">
+<span aria-hidden="true" class="icon-instagram_new"></span>
+<span class="sr-only">Profil Santander Bank Polska na portalu <span lang="en">Instagram</span></span>
+<span class="sr-only-target sr-only"> Uruchomi się w nowym oknie</span>
+</a>
+</li>
+<li class="footer-new__socials-element">
+<a href="https://www.linkedin.com/company/santander-bank-polska/" rel="nofollow noopener" target="_blank">
+<span aria-hidden="true" class="icon-linkedin_new"></span>
+<span class="sr-only">Profil Santander Bank Polska na portalu <span lang="en">LinkedIn</span></span>
+<span class="sr-only-target sr-only"> Uruchomi się w nowym oknie</span>
+</a>
+</li>
+<li class="footer-new__socials-element">
+<a href="https://www.youtube.com/user/BankZachodniWBK" rel="nofollow noopener" target="_blank">
+<span aria-hidden="true" class="icon-youtube_new"></span>
+<span class="sr-only">Profil Santander Bank Polska na portalu <span lang="en">YouTube</span></span>
+<span class="sr-only-target sr-only"> Uruchomi się w nowym oknie</span>
+</a>
+</li>
+</ul>
+</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-new__copy">
+      <div class="footer-new__container">
+        <div class="footer-new__content">
+          <div class="content_area"> <div class="footer-new__copy-inner">
+    <p class="footer-new__copy-text">Santander Bank Polska&nbsp;S.A. z&nbsp;siedzibą w&nbsp;Warszawie, przy al.&nbsp;Jana&nbsp;Pawła&nbsp;II&nbsp;17, 00-854&nbsp;Warszawa, zarejestrowana w&nbsp;Sądzie Rejonowym dla&nbsp;m.&nbsp;st.&nbsp;Warszawy w&nbsp;Warszawie, XIII&nbsp;Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr&nbsp;KRS&nbsp;0000008723. NIP&nbsp;896-000-56-73. REGON&nbsp;930041341. Wysokość kapitału zakładowego i&nbsp;wpłaconego 1&nbsp;021&nbsp;893&nbsp;140&nbsp;zł.</p>
+	<p class="footer-new__copy-text">Od dnia 9&nbsp;stycznia&nbsp;2026&nbsp;r. głównym akcjonariuszem Santander&nbsp;Bank&nbsp;Polska&nbsp;S.A. jest Erste&nbsp;Group&nbsp;Bank&nbsp;AG.</p>
+   <p class="footer-new__copy-text">Opłata za&nbsp;połączenie z&nbsp;infolinią banku zgodna z&nbsp;taryfą danego operatora. Słowniczek pojęć i&nbsp;definicji dotyczących usług reprezentatywnych, wynikających z&nbsp;rozporządzenia Ministra Rozwoju i&nbsp;Finansów z&nbsp;dnia 14&nbsp;lipca&nbsp;2017&nbsp;r. w&nbsp;sprawie wykazu usług reprezentatywnych powiązanych z&nbsp;rachunkiem płatniczym, dostępny jest na&nbsp;stronie <a href="/pad">santander.pl/PAD</a> oraz&nbsp;w&nbsp;placówkach banku.</p>
+    <div class="footer-new__copy-text">
+    <p class="footer-new__copy-text footer-new__copy-text-inline">Santander Bank Polska (dawniej BZ WBK) oferuje m.in.:</p>
+      <ul class="footer-new__copy-text" role="list" aria-label="Oferta dla klientów indywidualnych">
+          <li role="listitem"><a href="/klient-indywidualny/konta">konto osobiste</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/konta/konto-santander">konto bankowe przez internet</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/konta/konto-santander-dla-dziecka-0-12-lat">konto dla dziecka</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/konta/konto-santander-dla-mlodych-13-17-lat">konto dla młodzieży</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/konta/konto-santander-18-25-lat">darmowe prowadzenie konta bankowego</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/konta/konto-santander-dla-studenta">konto dla studentów</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/konta/konto24-walutowe">konto walutowe</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/oszczednosci-i-inwestycje/konto-multi-oszczednosciowe">konto oszczędnościowe</a> oraz lokaty bankowe,</li>
+          <li role="listitem"><a href="/klient-indywidualny/kredyty">kredyty</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/kredyty/kredyt-gotowkowy-online">kredyt gotówkowy</a>,</li>
+          <li role="listitem"><a href="/klient-indywidualny/kredyty/kredyt-mieszkaniowy">kredyt hipoteczny</a>,</li>
+          <li role="listitem">karty debetowe,</li>
+          <li role="listitem"><a href="/klient-indywidualny/karty-platnosci-i-kantor">karty kredytowe</a>,</li>
+          <li role="listitem">a także <a href="/klient-indywidualny/oszczednosci-i-inwestycje/fundusze-inwestycyjne">fundusze inwestycyjne</a> i <a href="/klient-indywidualny/ubezpieczenia">ubezpieczenia</a>.</li>
+      </ul>
+   <p class="footer-new__copy-text footer-new__copy-text-inline">W ofercie dla firm znajdziesz m.in.:</p>
+      <ul class="footer-new__copy-text" role="list" aria-label="Oferta dla firm">
+          <li role="listitem"><a href="/firmy/konta">konta firmowe</a>,</li>
+          <li role="listitem"><a href="/firmy/terminale-platnicze">terminale płatnicze</a>,</li>
+          <li role="listitem"><a href="/firmy/terminale-platnicze/terminal-stacjonarny-przenosny">terminal POS</a>,</li>
+          <li role="listitem"><a href="/firmy/terminale-platnicze/terminal-w-telefonie">terminal w telefonie</a>,</li>
+          <li role="listitem">kredyty na bieżącą działalność,</li>
+          <li role="listitem">kredyty inwestycyjne oraz usługi faktoringu i <a href="/firmy/leasing">leasingu</a>.</li>
+      </ul>
+      </div>
+  </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="clearFix"></div></div></div></div></div></div></div></footer></div><div class="modal_components"></div>
+  
+  <script type="text/javascript" src="/_cms-js/time20260303072317/site-tail-deps.js" nonce="/U4NhSBrajaaNUb9O19jBQ=="></script><script type="text/javascript" src="/_cms-js/time20260303072317/site-tail.js" nonce="/U4NhSBrajaaNUb9O19jBQ=="></script>  
+ 
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=809513250" async nonce="/U4NhSBrajaaNUb9O19jBQ=="></script></body></html> 

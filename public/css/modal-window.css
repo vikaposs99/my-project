@@ -1,0 +1,208 @@
+/*!
+ * Bootstrap v3.0.3 (http://getbootstrap.com)
+ * Copyright 2013 Twitter, Inc.
+ * Licensed under http://www.apache.org/licenses/LICENSE-2.0
+ */
+/*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ 
+.modal.fade,
+.modal-backdrop.fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+       -o-transition: opacity .15s linear;
+          transition: opacity .15s linear;
+}
+.modal.fade.in {
+  opacity: 1;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999980;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform .3s ease-out;
+       -o-transition:      -o-transform .3s ease-out;
+          transition:         transform .3s ease-out;
+  -webkit-transform: translate3d(0, -25%, 0);
+       -o-transform: translate3d(0, -25%, 0);
+          transform: translate3d(0, -25%, 0);
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.modal-dialog {
+  position: relative;
+  width: 600px;
+  /* width: auto; */
+  margin: 30px auto;
+  /* margin: 10px; */
+}
+.modal-content {
+  position: relative;
+  background-color: var(--color-background-default);
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid var(--color-border-default);
+  border: 1px solid var(--color-border-soft);
+  outline: 0;
+  /* -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5); */
+  -webkit-box-shadow: 0 5px 15px var(--color-background-strong);
+          box-shadow: 0 5px 15px var(--color-background-strong);
+    padding: 0 20px 20px 20px;
+    border-radius: 0 !important;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999970;
+  background-color: var(--color-background-inverted);
+}
+.modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.modal-header {
+  width: 100%;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-dataviz-max-8-colors-04) !important;
+    margin-bottom: 20px;
+    padding: 0 !important;
+}
+.modal-header .close {
+    align-self: flex-start;
+    flex-shrink: 0;
+  	cursor: pointer;
+    z-index: 1000;
+    background: url(/css/images/close-black.svg) no-repeat 0 0 !important;
+    background-size: 15px 15px !important;
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 20px !important;
+    opacity: 1 !important;
+    border: 0 !important;
+}
+.modal-header img {
+    float: left;
+    margin: 5px 10px 0 0 !important;
+    padding: 0 !important;
+    align-self: flex-start;
+}
+
+.modal-header-icon {
+	padding: 15px 0 15px 15px;
+}
+
+.modal-title {
+ 	margin: 0 !important;
+    border: 0;
+	font-size: var(--typescale-headline-medium-size);
+	font-weight: var(--typescale-headline-medium-weight);
+	padding: 10px 0 !important;
+	line-height: var(--typescale-figure-xxlarge-strong-line-height);
+}
+.modal-title span{
+    font-size: var(--typescale-headline-medium-size);
+    font-weight: var(--typescale-headline-medium-weight);
+	line-height: var(--typescale-figure-xxlarge-strong-line-height);
+	width: 485px;
+}
+.modal-body {
+  position: relative;
+  padding: 0 !important;
+}
+.modal-footer {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 1px solid var(--color-border-soft);
+}
+.modal-footer:before,
+.modal-footer:after {
+  content: " ";
+  display: table;
+}
+.modal-footer:after {
+  clear: both;
+}
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+.modal-dialog.offer-review-modal, .action-modal.unmasking-auth-modal {
+	width: 860px;
+	white-space: normal;
+}
+
+.modal-dialog.offer-review-modal .modal-title,
+.modal-dialog.offer-review-modal .modal-title span {
+	width: 735px;
+}
+
+
+.action-modal {
+    width: 400px;
+}
+
+.action-modal .message {
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: var(--typescale-body-large-default-size);
+}
+
+.modal-header:after,
+.modal-header:before {
+    display: none !important;
+}
+
+.modal-paragraph {
+    font-size: var(--typescale-body-large-default-size);
+    padding-block: 16px;
+    line-height: var(--typescale-body-large-default-line-height);
+}

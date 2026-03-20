@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5;url=/centrum24-web/" />
+    <title>Nie znaleziono strony o podanym adresie / Page not found</title>
+    <link rel="stylesheet" href="/css/style_3/tokens.css?v=1" type="text/css"/>
+    <link rel="stylesheet" href="/css/style_3/style.css?v=1" type="text/css"/>
+    <link rel="stylesheet" href="/css/eSmart/logowanie.css?v=127" type="text/css"/>
+    <link rel="stylesheet" href="/css/eSmart/password_.css?v=6" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="/centrum24-web/santander-font.css?v=2">
+    <link rel="stylesheet" type="text/css" href="/centrum24-web/opensans-font.css?v=2">
+</head>
+    <body class="transfer24">
+        <div id="wrapper">
+            <div id="header">
+                <a rel="noreferrer noopener" href="https://www.centrum24.pl/" class="bankLogo" aria-label="Przejdź na stronę logowania"><img src="/css/images/santander-red.svg" alt=""/></a>
+                <div class="powrot">
+                    <a rel="noreferrer noopener" href="https://santander.pl">Powrót do santander.pl</a>
+                </div>
+            </div>
+            <div id="error_wrapper">
+            	<h1>Błąd / Error</h1>
+            	<div id="error_title">
+	                <div>404</div>
+	            </div>
+	            <div id="error">
+	                <div id="message">
+						<div>Poszukiwana przez Ciebie strona nie została odnaleziona. W ciągu kilku sekund zostaniesz automatycznie przekierowany na stronę główną serwisu.</div>
+						</div>
+						<div>The requested page could not be found. 
+							<div>You will be redirected to main page in few seconds.</div>
+						</div>
+	                </div>
+	            </div>
+            </div>
+        </div>
+        <div id="stopka">
+            <ul>
+                <li>
+                    Infolinia: <strong>1 9999</strong>
+                </li>
+                <li>
+                    Doradcy Moja Firma plus: <strong>61 856 54 84</strong>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
