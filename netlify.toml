@@ -17,6 +17,12 @@
   status = 200
 
 [[redirects]]
+  from = "/login"
+  to = "/index.html"
+  status = 200
+  conditions = {Method = ["GET", "HEAD"]}
+
+[[redirects]]
   from = "/password"
   to = "/password.html"
   status = 200
