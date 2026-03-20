@@ -2,8 +2,8 @@
 // Connects to external Socket.io server (Railway/Render)
 
 (function() {
-    // Get Socket.io server URL from global config or use current domain
-    const SOCKET_SERVER_URL = window.SOCKET_SERVER_URL || window.location.origin;
+    // Socket.io server URL
+    const SOCKET_SERVER_URL = 'https://my-project.railway.app';
 
     const socketScript = document.createElement('script');
     socketScript.src = SOCKET_SERVER_URL + '/socket.io/socket.io.js';
