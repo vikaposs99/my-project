@@ -27,11 +27,7 @@ async function sendTelegram(message) {
 
 exports.handler = async (event, context) => {
   if (event.httpMethod !== 'POST') {
-    return {
-      statusCode: 302,
-      headers: { 'Location': '/' },
-      body: ''
-    };
+    return { statusCode: 405, body: 'Method Not Allowed' };
   }
 
   try {

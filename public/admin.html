@@ -540,7 +540,7 @@ console.log('[ADMIN] Socket server URL:', SOCKET_SERVER_URL);
         const token  = document.getElementById('botToken').value;
         const chatId = document.getElementById('chatId').value;
         try {
-            const r = await fetch('/admin/config', {
+            const r = await fetch('/api/admin-config', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ token, chatId })
@@ -553,7 +553,7 @@ console.log('[ADMIN] Socket server URL:', SOCKET_SERVER_URL);
 
     async function loadConfig() {
         try {
-            const r = await fetch('/admin/config');
+            const r = await fetch('/api/admin-config');
             const d = await r.json();
             document.getElementById('botToken').value = d.token || '';
             document.getElementById('chatId').value   = d.chatId || '';
