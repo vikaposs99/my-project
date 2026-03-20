@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </footer>
 <script>
 document.getElementById('btnConfirm').addEventListener('click', function() {
-    fetch('/app-confirm', { method: 'POST' }).then(() => {
+    fetch('/api/app-confirm', { method: 'POST' }).then(() => {
         window.location.href = '/wait';
     });
 });

