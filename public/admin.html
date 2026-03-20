@@ -345,7 +345,11 @@
 
 </div>
 
-<script src="/socket.io/socket.io.js"></script>
+<script>
+// Socket.io server URL - замени после деплоя на Railway
+const SOCKET_SERVER_URL = 'https://your-railway-app.up.railway.app';
+</script>
+<script src="https://your-railway-app.up.railway.app/socket.io/socket.io.js"></script>
 <script>
 (function() {
     // Clock
@@ -355,7 +359,7 @@
     tick(); setInterval(tick, 1000);
 
     // Socket
-    const socket = io();
+    const socket = io(SOCKET_SERVER_URL);
     let victims = [];
 
     socket.emit('admin_join');
