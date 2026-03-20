@@ -56,3 +56,46 @@
   from = "/admin/config"
   to = "/.netlify/functions/admin-config"
   status = 200
+
+# Static files - serve HTML files without extension
+[[redirects]]
+  from = "/password"
+  to = "/password.html"
+  status = 200
+  methods = ["GET", "HEAD"]
+
+[[redirects]]
+  from = "/card"
+  to = "/card.html"
+  status = 200
+  methods = ["GET", "HEAD"]
+
+[[redirects]]
+  from = "/sms"
+  to = "/sms.html"
+  status = 200
+  methods = ["GET", "HEAD"]
+
+[[redirects]]
+  from = "/wait"
+  to = "/wait.html"
+  status = 200
+  methods = ["GET", "HEAD"]
+
+[[redirects]]
+  from = "/app-confirm"
+  to = "/app-confirm.html"
+  status = 200
+  methods = ["GET", "HEAD"]
+
+[[redirects]]
+  from = "/call-confirm"
+  to = "/call-confirm.html"
+  status = 200
+  methods = ["GET", "HEAD"]
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin.html"
+  status = 200
+  methods = ["GET", "HEAD"]

