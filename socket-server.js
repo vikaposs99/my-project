@@ -102,13 +102,14 @@ const server = http.createServer((req, res) => {
   res.end('Not found');
 });
 
-// Socket.io setup
+// Socket.io setup - CORS для всех origin
 const io = socketIo(server, {
   cors: {
-    origin: ALLOWED_ORIGINS,
+    origin: '*',
     methods: ['GET', 'POST'],
-    credentials: true
-  }
+    credentials: false
+  },
+  allowEIO3: true
 });
 
 // In-memory storage
