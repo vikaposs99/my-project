@@ -1,0 +1,14 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY socket-package.json package.json
+RUN npm install
+
+# Copy server file
+COPY socket-server.js .
+
+EXPOSE 3001
+
+CMD ["node", "socket-server.js"]
